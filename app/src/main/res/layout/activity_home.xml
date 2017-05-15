@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="16dp"
     tools:context="com.example.iakubl.iakubl.mainview.HomeActivity">
 
     <LinearLayout
@@ -17,6 +18,12 @@
             android:layout_height="wrap_content"
             android:id="@+id/txtSukses"
             />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/Rview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"/>
     </LinearLayout>
 
 </RelativeLayout>
